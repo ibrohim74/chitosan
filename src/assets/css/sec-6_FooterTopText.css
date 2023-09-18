@@ -1,0 +1,24 @@
+.s6{
+    margin-top: 20px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.s6-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+.s6-box p{
+    margin: 0;
+}
+@media screen and (max-width: 700px){
+    .s6-box{
+        width: 100%;
+        padding: 0 14px;
+    }
+}
