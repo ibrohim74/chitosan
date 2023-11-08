@@ -7,6 +7,7 @@ import Sec4Kompleks from "../component/sec-4_Kompleks";
 import Sec5Afzalik from "../component/sec-5_Afzalik";
 import Sec6_FooterTopText from "../component/sec-6_FooterTopText";
 import Footer from "../component/footer";
+import Price from '../component/price';
 
 const Index = () => {
     return (
@@ -18,6 +19,7 @@ const Index = () => {
             <Sec4Kompleks/>
             <Sec5Afzalik/>
             <Sec6_FooterTopText/>
+            <Price/>
             <Footer/>
         </div>
     );
